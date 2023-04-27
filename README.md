@@ -1,4 +1,4 @@
-# Parkinsons_Detection
+# Parkinsons Detection
 Comparative Analysis of CNNs and ViTs for Parkinson's Detection from Audio Spectrograms
 
 In this project we will try to build a model to detect Parkinson's Disease from Patient Audio Signals converted into Spectrograms. 
@@ -9,7 +9,7 @@ The Wavelet and Cross Wavelet Transforms obtained can now be used to train a CNN
 
 Hence a Transfer Learning Approach would be more suitable to work with in this case. Going ahead we will use differnt available Pre-Trained CNNs and ViTs to perform the feature extraction from the obtained Wavelet and Cross Wavelet Transforms. The extracted features corresponding to the different transforms can then be used to train a Linear or a Non-Linear Classifier to build the complete model. We will be usign classifiers like Logistic Regression, SVM, KNN, MLP and Random Forests to perform classification of Positive and Negative Samples. Subsequently the differnt methodolgies adapted can be compared and their relative performance can be evaluated using different metrics like Accuracy, Precision, F1 Score, ROC, AUC... 
 
-# Parkinsons_Detection using CNNs
+# Parkinsons Detection using CNNs
 
-# Parkinsons_Detection using ViTs
+# Parkinsons Detection using ViTs
 
