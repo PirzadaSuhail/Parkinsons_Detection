@@ -3,7 +3,7 @@ Comparative Analysis of CNNs and ViTs for Parkinson's Detection from Audio Spect
 
 In this project we will try to build a model to detect Parkinson's Disease from Patient Audio Signals converted into Spectrograms. 
 
-Since the audio patient audio data available is limited, we begin by sampling the audio into small audio files of 10 second each, that leaves us with around 700 Positive and Negative audio samples. The sampled audio signals are then converted into Frequency Transforms using the two matlab files given as Wavelet.m and Cross_Wavelet.m that convert the sampled audio into Wavelet Transforms and Cross Wavelet Transform that store the frequency spectrum information of the Audio Signals which is very useful in detecting Parkinson's disease. 
+Since the patient audio data available is limited, we begin by sampling the audio into small files of 10 second each, that leaves us with around 700 Positive and Negative audio samples. The sampled audio signals are then converted into Frequency Transforms using the two matlab files given as Wavelet.m and Cross_Wavelet.m that convert the sampled audio into Wavelet Transforms and Cross Wavelet Transform that store the frequency spectrum information of the Audio Signals which is very useful in detecting Parkinson's disease. 
 
 The Wavelet and Cross Wavelet Transforms obtained can now be used to train a CNN or a ViT to perform the task of Parkinson's Detection using Supervised Learning. However training the entire CNN or ViT on a limited dataset would not generalise well givem the enormous number of learnable features present in these models.
 
